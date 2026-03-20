@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: docker-connector
+    annotations:
+        github.com/project-slug: yourparkingspace/docker-connector
+spec:
+    type: service
+    lifecycle: production
+    owner: devops

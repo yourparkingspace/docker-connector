@@ -4,10 +4,16 @@ Super simple utility that facilities direct-to-bash with a Docker container runn
 
 ## Download
 
-Boldly assuming anyone that needs this has homebrew already installed.
+**Apple Silicon (ARM64):**
 
 ```
 curl -L https://github.com/yourparkingspace/docker-connector/releases/latest/download/docker-connector -o /opt/homebrew/bin/docker-connector && chmod +x /opt/homebrew/bin/docker-connector
+```
+
+**Intel (AMD64):**
+
+```
+curl -L https://github.com/yourparkingspace/docker-connector/releases/latest/download/docker-connector -o /usr/local/bin/docker-connector && chmod +x /usr/local/bin/docker-connector
 ```
 
 ## Usage
